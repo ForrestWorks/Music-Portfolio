@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forrest Works | Music</title>
+
+    <meta name="description" content="Music portfolio of James Forrest. Original music, compositions, soundtracks, and creative work.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #111;
+            color: #eee;
+            font-family: "Source Sans 3", sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            border-bottom: 1px solid #333;
+            padding: 25px 30px;
+            background: #0b0b0b;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: "Alegreya", serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: #bbb;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: #fff;
+        }
+
+        .hero {
+            max-width: 1100px;
+            margin: auto;
+            padding: 120px 30px 100px;
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 0.8rem;
+            color: #999;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-family: "Alegreya", serif;
+            font-size: clamp(4rem, 10vw, 8rem);
+            line-height: 0.9;
+            margin: 0 0 30px;
+        }
+
+        .intro {
+            max-width: 650px;
+            font-size: 1.25rem;
+            color: #bbb;
+        }
+
+        .section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 70px 30px;
+        }
+
+        h2 {
+            font-family: "Alegreya", serif;
+            font-size: 2.5rem;
+            margin-bottom: 35px;
+        }
+
+        .music-card {
+            border: 1px solid #333;
+            background: #181818;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .music-card h3 {
+            font-family: "Alegreya", serif;
+            font-size: 1.8rem;
+            margin: 0 0 5px;
+        }
+
+        .music-card p {
+            color: #aaa;
+        }
+
+        .player-placeholder {
+            margin-top: 25px;
+            padding: 20px;
+            border: 1px dashed #555;
+            color: #888;
+            text-align: center;
+        }
+
+        .links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            border: 1px solid #666;
+            color: #eee;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #eee;
+            color: #111;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            padding: 35px 30px;
+            text-align: center;
+            color: #777;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .hero {
+                padding-top: 80px;
+            }
+
+            .nav-links {
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a class="logo" href="index.html">FORREST WORKS</a>
+
+        <div class="nav-links">
+            <a href="#music">Music</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="eyebrow">Music / Composition / Sound</div>
+
+        <h1>Music by<br>James Forrest</h1>
+
+        <p class="intro">
+            Original music, compositions, soundtracks, and other
+            musical work.
+        </p>
+    </section>
+
+    <section class="section" id="music">
+
+        <h2>Music</h2>
+
+        <div class="music-card">
+            <h3>Featured Work</h3>
+
+            <p>
+                A place for your latest composition, soundtrack,
+                song, or project.
+            </p>
+
+            <div class="player-placeholder">
+                AUDIO PLAYER WILL GO HERE
+            </div>
+        </div>
+
+        <div class="music-card">
+            <h3>More Music</h3>
+
+            <p>
+                Additional compositions and projects will appear here.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="section" id="about">
+
+        <h2>About</h2>
+
+        <p>
+            I'm James Forrest, a musician and creative artist working
+            across music, composition, performance, and other forms
+            of storytelling.
+        </p>
+
+    </section>
+
+    <section class="section" id="contact">
+
+        <h2>Find My Music</h2>
+
+        <div class="links">
+            <a class="button" href="#">Spotify</a>
+            <a class="button" href="#">Bandcamp</a>
+            <a class="button" href="#">SoundCloud</a>
+            <a class="button" href="#">YouTube</a>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Forrest Works
+</footer>
+
+</body>
+</html>
